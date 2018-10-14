@@ -41,9 +41,8 @@ const rootPath = TEST ? '../js/coverage/dist/' : '../js/dist/'
 function build(plugin) {
   console.log(`Building ${plugin} plugin...`)
 
-  const external = ['hammerjs', 'jquery', 'popper.js']
+  const external = ['jquery', 'popper.js']
   const globals = {
-    hammerjs: 'Hammer',
     jquery: 'jQuery', // Ensure we use jQuery which is always available even in noConflict mode
     'popper.js': 'Popper'
   }

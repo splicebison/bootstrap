@@ -94,7 +94,6 @@
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
-    "hammerjs": "^2.0.8",
     "jquery": "1.9.1 - 3",
     "popper.js": "^1.14.4"
   },
@@ -115,7 +114,6 @@
     "find-unused-sass-variables": "^0.2.1",
     "glob": "^7.1.3",
     "hammer-simulator": "0.0.1",
-    "hammerjs": "^2.0.8",
     "htmllint-cli": "^0.0.7",
     "http-server": "^0.11.1",
     "ip": "^1.1.5",
@@ -184,7 +182,7 @@
     },
     {
       "path": "./dist/js/bootstrap.bundle.js",
-      "maxSize": "61 kB"
+      "maxSize": "60 kB"
     },
     {
       "path": "./dist/js/bootstrap.bundle.min.js",
